@@ -1,6 +1,7 @@
 {
   "name": "blog-v2",
-  "version": "4.5.0",
+  "version": "4.5.1",
+  "private": false,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
