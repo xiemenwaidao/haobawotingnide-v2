@@ -3,21 +3,20 @@ import type { BoxProps, Quad, Triplet } from "@react-three/cannon";
 import { useBox } from "@react-three/cannon";
 import { useGLTF } from "@react-three/drei";
 import { lightParams, darkParams } from "@utils/const";
-import React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useCubeStore } from "stores/useGLStore";
 import { Box3, Color, Vector3 } from "three";
-import type { Group } from "three";
+import type { Group, Mesh, MeshStandardMaterial } from "three";
 import type { GLTF } from "three-stdlib";
 
 type GLTFResult = GLTF & {
   nodes: {
-    kuang: THREE.Mesh;
-    neihong: THREE.Mesh;
+    kuang: Mesh;
+    neihong: Mesh;
   };
   materials: {
-    gold: THREE.MeshStandardMaterial;
-    neise: THREE.MeshStandardMaterial;
+    gold: MeshStandardMaterial;
+    neise: MeshStandardMaterial;
   };
 };
 
