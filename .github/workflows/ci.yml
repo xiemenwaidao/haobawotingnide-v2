@@ -1,5 +1,4 @@
 name: CI
-
 on:
   pull_request:
     types:
@@ -8,35 +7,41 @@ on:
       - synchronize
       - reopened
   workflow_call:
-
 jobs:
   build:
     name: Code standards & build
     runs-on: ubuntu-latest
     timeout-minutes: 3
-
     strategy:
       matrix:
         node-version: [18.x]
-
     steps:
       - name: "☁️ Checkout repository"
         uses: actions/checkout@v4
-
       - name: "🔧 Setup Node.js ${{ matrix.node-version }}"
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
-
+      - name: "📦 Install pnpm"
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: "📦 Get pnpm store directory"
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      - name: "📦 Setup pnpm cache"
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
       - name: "📦 Install dependencies"
-        run: npm ci
-
+        run: pnpm install
       - name: "🔎 Lint code"
-        run: npm run lint
-
+        run: pnpm run lint
       - name: "📝 Checking code format"
-        run: npm run format:check
-
+        run: pnpm run format:check
       - name: "🚀 Build the project"
-        run: npm run build
+        run: pnpm run build
