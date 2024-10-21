@@ -1,10 +1,11 @@
 ---
-import { LOGO_IMAGE, SITE } from "@config";
+import { SITE } from "@config";
 import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
+import TitleLogo from "./TitleLogo.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "works" | "about" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -14,19 +15,8 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/" class="logo whitespace-nowrap">
-        {
-          LOGO_IMAGE.enable ? (
-            <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
-              alt={SITE.title}
-              width={LOGO_IMAGE.width}
-              height={LOGO_IMAGE.height}
-            />
-          ) : (
-            SITE.title
-          )
-        }
+      <a href="/" class="logo whitespace-nowrap" aria-label="title logo">
+        <TitleLogo />
       </a>
       <nav id="nav-menu">
         <button
@@ -63,6 +53,11 @@ const { activeNav } = Astro.props;
           <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
               Tags
+            </a>
+          </li>
+          <li>
+            <a href="/works/" class={activeNav === "works" ? "active" : ""}>
+              Works
             </a>
           </li>
           <li>
