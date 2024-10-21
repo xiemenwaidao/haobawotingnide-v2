@@ -3,45 +3,45 @@ import type { Work } from "@assets/worksData";
 import LinkButton from "./LinkButton.astro";
 
 interface Props {
-    work: Work;
+  work: Work;
 }
 const { work } = Astro.props;
 ---
 
 <li class="workcard">
-    <div class="max-w-full sm:max-w-sm rounded-lg shadow h-full flex flex-col">
-        <a href={work.href} target="_blank">
-            <img
-                src={`/assets/img/works/${work.title}.png`}
-                alt={work.title}
-                class="rounded-t-lg"
-            />
-        </a>
-        <div class="flex-grow flex flex-col p-5">
-            <a href={work.href} class="w-fit" target="_blank">
-                <h5
-                    class="mb-2 text-2xl w-fit font-bold tracking-tight text-skin-accent hover:underline decoration-dashed"
-                >
-                    {work.title}
-                </h5>
-            </a>
-            <p class="mb-5 font-normal grow">
-                {work.description}
-            </p>
-            <LinkButton href={work.href} target="_blank" className={"w-fit"}>
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    ><path
-                        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-                    ></path>
-                </svg>
-            </LinkButton>
-        </div>
+  <div class="max-w-full sm:max-w-sm rounded-lg shadow h-full flex flex-col">
+    <a href={work.href} target="_blank">
+      <img
+        src={`/assets/img/works/${work.title}.png`}
+        alt={work.title}
+        class="rounded-t-lg"
+      />
+    </a>
+    <div class="flex-grow flex flex-col p-5">
+      <a href={work.href} class="w-fit" target="_blank">
+        <h5
+          class="mb-2 text-2xl w-fit font-bold tracking-tight text-skin-accent hover:underline decoration-dashed"
+        >
+          {work.title}
+        </h5>
+      </a>
+      <p class="mb-5 font-normal grow">
+        {work.description}
+      </p>
+      <LinkButton href={work.href} target="_blank" className={"w-fit"}>
+        Read more
+        <svg xmlns="http://www.w3.org/2000/svg"
+          ><path
+            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
+          ></path>
+        </svg>
+      </LinkButton>
     </div>
+  </div>
 </li>
 
 <style>
-    img {
-        filter: url(#squiggle);
-    }
+  img {
+    filter: url(#squiggle);
+  }
 </style>
