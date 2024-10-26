@@ -60,7 +60,7 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
+        mono: ["Noto Sans JP", "monospace"],
         zh: ["ZCOOL XiaoWei", "sans-serif"],
       },
       textUnderlineOffset: {
