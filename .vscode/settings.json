@@ -12,6 +12,5 @@
             "path": "[[workspace]]/src/pages/about"
         }
     ],
-    "frontMatter.content.publicFolder": "public",
     "frontMatter.git.enabled": true,
 }
