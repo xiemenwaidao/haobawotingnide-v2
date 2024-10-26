@@ -2,4 +2,15 @@
     "editor.detectIndentation": true,
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "blog",
+            "path": "[[workspace]]/src/content/blog"
+        },
+        {
+            "title": "about",
+            "path": "[[workspace]]/src/pages/about"
+        }
+    ],
+    "frontMatter.git.enabled": true,
 }

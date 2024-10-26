@@ -1,0 +1,21 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.snippets": {
+    "Image snippet": {
+      "description": "src/title/alt/width/height",
+      "body": "<img src=\"[[&mediaUrl]]\" title=\"[[title]]\" alt=\"[[alt]]\" width=\"[[mediaWidth]]\" height=\"[[mediaHeight]]\" >",
+      "isMediaSnippet": true
+    },
+    "anchor image": {
+      "description": "imageをaタグで優しく包み込みます。",
+      "body": "<a href=\"\" target=\"_blank\"><img src=\"[[mediaUrl]]\" alt=\"[[alt]]\" title=\"[[title]]\" width=\"[[mediaWidth]]\" height=\"[[mediaHeight]]\" ></a>",
+      "isMediaSnippet": true
+    },
+    "<br/>": {
+      "description": "改行",
+      "body": "<br/>",
+      "fields": []
+    }
+  }
+}
