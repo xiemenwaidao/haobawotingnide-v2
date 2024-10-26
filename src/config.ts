@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "",
   desc: "日々の開発記録 - フロントエンドや3Dの話題を共有するブログ。開発情報やノウハウ、新しい技術について発信しています。",
   title: "HAOBAWOTINGNIDE",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "ogImage.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
