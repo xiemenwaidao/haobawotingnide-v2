@@ -73,7 +73,7 @@ export default async (post: CollectionEntry<"blog">) => {
               fontSize: 28,
             }}
           >
-            <span>
+            {/* <span>
               by{" "}
               <span
                 style={{
@@ -85,7 +85,7 @@ export default async (post: CollectionEntry<"blog">) => {
               <span style={{ overflow: "hidden", fontWeight: "bold" }}>
                 {post.data.author}
               </span>
-            </span>
+            </span> */}
 
             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
               {SITE.title}
