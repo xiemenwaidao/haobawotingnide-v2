@@ -4,7 +4,7 @@ description: 移行経緯や移行先の紹介などを書きました。結論�
 draft: false
 featured: false
 pubDatetime: 2023-05-06T07:37:50.239Z
-lastmod: 2023-05-10T13:03:58.081Z
+modDatetime: 2023-05-10T13:03:58.081Z
 tags:
   - ChatGPT
   - Front-Matter-CMS

@@ -4,7 +4,7 @@ description: 新しく作った当ブログについての制作経緯や、使�
 draft: false
 featured: false
 pubDatetime: 2023-04-09T10:35:00.000Z
-lastmod: 2023-05-06T07:14:09.754Z
+modDatetime: 2023-05-06T07:14:09.754Z
 tags:
   - AstroJs
   - microCMS

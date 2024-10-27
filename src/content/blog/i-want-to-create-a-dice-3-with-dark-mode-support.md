@@ -4,7 +4,7 @@ description: サイコロシーンの背景やマテリアルのダークモー�
 draft: false
 featured: false
 pubDatetime: 2023-05-09T05:46:15.051Z
-lastmod: 2023-05-10T13:02:09.968Z
+modDatetime: 2023-05-10T13:02:09.968Z
 tags:
   - JavaScript
   - React-three-fiber

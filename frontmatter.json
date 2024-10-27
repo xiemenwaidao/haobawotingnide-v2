@@ -17,5 +17,86 @@
       "body": "<br/>",
       "fields": []
     }
-  }
+  },
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "filePrefix": null,
+      "path": "[[workspace]]/src/content/blog",
+      "previewPath": "/posts/"
+    },
+    {
+      "title": "about",
+      "path": "[[workspace]]/src/pages/about"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "modDatetime",
+          "name": "modDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "postSlug",
+          "name": "postSlug",
+          "type": "string"
+        }
+      ]
+    }
+  ]
 }

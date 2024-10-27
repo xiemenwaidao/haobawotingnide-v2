@@ -4,7 +4,7 @@ description: Plasmoって知ってっか？なんでも拡張機能がカンタ�
 draft: false
 featured: false
 pubDatetime: 2023-04-19T08:58:00.000Z
-lastmod: 2023-05-06T07:14:44.016Z
+modDatetime: 2023-05-06T07:14:44.016Z
 tags:
   - chrome-extension
   - JavaScript

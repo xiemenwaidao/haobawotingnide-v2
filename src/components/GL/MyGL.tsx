@@ -9,7 +9,6 @@ import Plane from "./Plane";
 import Cube from "./Model";
 import { darkParams, lightParams } from "@utils/const";
 import Lights from "./Lights";
-import React from "react";
 
 export default function MyGL() {
   const mode = useMode();
