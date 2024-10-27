@@ -4,7 +4,7 @@ description: Vercelデプロイ時にエラーに遭遇したので備忘録と�
 draft: false
 featured: false
 pubDatetime: 2023-04-10T16:20:00.000Z
-lastmod: 2023-05-10T12:56:04.661Z
+modDatetime: 2023-05-10T12:56:04.661Z
 tags:
   - Vercel
 postSlug: err-pnpm-outdated-lockfile-cannot-install-with-frozen-lockfile-because-pnpm-lock-yaml-is-not-up-to-date-with-package-json

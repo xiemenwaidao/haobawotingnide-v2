@@ -4,7 +4,7 @@ description: 配信アプリのハート送信機能の自動化について調�
 draft: true
 featured: false
 pubDatetime: 2023-04-15T00:31:00.000Z
-lastmod: 2023-05-30T05:15:14.990Z
+modDatetime: 2023-05-30T05:15:14.990Z
 tags:
   - JavaScript
 postSlug: streaming-app-heart-sending-automation

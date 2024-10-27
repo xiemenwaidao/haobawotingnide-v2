@@ -4,7 +4,7 @@ description: 気の迷いでとてもニッチなサイト作っちゃった話
 draft: false
 featured: false
 pubDatetime: 2023-07-26T16:29:52.084Z
-lastmod: 2023-07-26T16:29:53.950Z
+modDatetime: 2023-07-26T16:29:53.950Z
 tags:
   - googlemap
   - JavaScript

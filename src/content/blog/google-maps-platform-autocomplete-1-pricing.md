@@ -4,7 +4,7 @@ description: 検索窓付きのマップをサイトに導入したくてGoogle 
 draft: false
 featured: false
 pubDatetime: 2023-06-17T07:16:35.983Z
-lastmod: 2023-06-17T21:10:41.762Z
+modDatetime: 2023-06-17T21:10:41.762Z
 tags:
   - googlemap
   - JavaScript

@@ -4,7 +4,7 @@ description: サイコロを吹き飛ばす機能の実装をしました。自�
 draft: false
 featured: true
 pubDatetime: 2023-05-08T15:21:50.990Z
-lastmod: 2023-05-10T13:00:48.806Z
+modDatetime: 2023-05-10T13:00:48.806Z
 tags:
   - CannonJs
   - JavaScript

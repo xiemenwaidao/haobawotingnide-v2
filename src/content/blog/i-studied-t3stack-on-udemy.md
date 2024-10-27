@@ -4,7 +4,7 @@ description: 以前気の迷いで購入したUdemyのT3Stackハンズオン講�
 draft: false
 featured: false
 pubDatetime: 2023-06-05T06:42:26.189Z
-lastmod: 2023-06-05T06:42:27.723Z
+modDatetime: 2023-06-05T06:42:27.723Z
 tags:
   - NextJs
   - T3Stack

@@ -4,7 +4,7 @@ description: Babylon.jsで遭遇したエラーの備忘録
 draft: false
 featured: false
 pubDatetime: 2023-05-23T11:34:05.243Z
-lastmod: 2023-05-23T11:34:09.695Z
+modDatetime: 2023-05-23T11:34:09.695Z
 tags:
   - BabylonJs
   - Vite

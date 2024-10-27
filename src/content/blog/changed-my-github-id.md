@@ -4,7 +4,7 @@ description: 実際にGitHubのアカウントIDを変更してみての注意�
 draft: false
 featured: false
 pubDatetime: 2023-06-17T15:21:09.859Z
-lastmod: 2023-06-17T15:21:18.175Z
+modDatetime: 2023-06-17T15:21:18.175Z
 tags:
   - GitHub
 postSlug: changed-my-github-id

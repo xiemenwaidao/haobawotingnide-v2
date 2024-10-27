@@ -4,7 +4,7 @@ description: Worksページを作ったので、制作物の説明を書きま�
 draft: false
 featured: false
 pubDatetime: 2023-04-25T23:08:00.000Z
-lastmod: 2023-05-06T07:14:57.026Z
+modDatetime: 2023-05-06T07:14:57.026Z
 tags:
   - Blender
   - JavaScript

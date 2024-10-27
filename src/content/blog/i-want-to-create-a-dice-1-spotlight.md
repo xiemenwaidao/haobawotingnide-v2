@@ -4,7 +4,7 @@ description: サイコロに追従するスポットライトを実装しまし�
 draft: false
 featured: true
 pubDatetime: 2023-05-01T15:44:00.000Z
-lastmod: 2023-05-10T12:57:51.538Z
+modDatetime: 2023-05-10T12:57:51.538Z
 tags:
   - Blender
   - CannonJs

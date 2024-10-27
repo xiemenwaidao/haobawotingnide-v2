@@ -4,7 +4,7 @@ description: 便利なVSCode拡張機能「Front Matter CMS」を使いこなす
 draft: true
 featured: false
 pubDatetime: 2023-05-08T01:08:22.582Z
-lastmod: 2023-05-09T14:34:59.430Z
+modDatetime: 2023-05-09T14:34:59.430Z
 tags:
   - Front-Matter-CMS
 postSlug: front-matter-cms-mastery

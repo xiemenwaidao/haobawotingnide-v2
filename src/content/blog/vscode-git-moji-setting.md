@@ -4,7 +4,7 @@ description: vscodeからコミットする際に絵文字をいい感じに入�
 draft: false
 featured: false
 pubDatetime: 2023-05-29T04:56:14.665Z
-lastmod: 2023-06-13T03:25:57.953Z
+modDatetime: 2023-06-13T03:25:57.953Z
 tags:
   - VSCode
   - git
