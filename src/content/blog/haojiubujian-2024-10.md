@@ -10,7 +10,7 @@ tags:
 postSlug: haojiubujian-2024-10
 ---
 
-<img src="/assets/img/posts/haojiubujian-2024-10-thumbnail.jpeg" title="サムネイル" alt="" width="491" height="285" >
+<img src="/assets/img/posts/haojiubujian-2024-10-thumbnail.jpeg" title="WeChatで好きな絵文字TOP3" alt="" width="740" height="430" >
 
 ## 目次
 
