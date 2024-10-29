@@ -59,6 +59,11 @@ module.exports = {
         },
         transparent: "transparent",
       },
+      stroke: {
+        skin: {
+          accent: withOpacity("--color-accent")
+        }
+      },
       fontFamily: {
         mono: ["Noto Sans JP", "monospace"],
         zh: ["ZCOOL XiaoWei", "sans-serif"],
