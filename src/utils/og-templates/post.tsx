@@ -47,7 +47,7 @@ export default async (post: CollectionEntry<"blog">) => {
           }}
         >
           <img
-            src="https://haobawotingnide.xyz/ogImage.png"
+            src="https://blog.haobawotingnide.xyz/ogImage.png"
             style={{
               margin: "auto",
               height: "100%",

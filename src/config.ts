@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://www.haobawotingnide.xyz/", // replace this with your deployed domain
+  website: "https://blog.haobawotingnide.xyz/", // replace this with your deployed domain
   author: "Menxie Lijiao",
   profile: "",
-  desc: "日々の開発記録 - フロントエンドや3Dの話題を共有するブログ。開発情報やノウハウ、新しい技術について発信しています。",
+  desc: "Webエンジニアのブログです。",
   title: "HAOBAWOTINGNIDE",
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
