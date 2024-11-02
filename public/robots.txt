@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://www.haobawotingnide.xyz/sitemap-index.xml
+Sitemap: https://blog.haobawotingnide.xyz/sitemap-index.xml
