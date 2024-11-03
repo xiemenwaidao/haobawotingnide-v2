@@ -50,18 +50,6 @@
           "type": "string"
         },
         {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },
-        {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
           "title": "Is in draft",
           "name": "draft",
           "type": "boolean"
@@ -72,11 +60,6 @@
           "type": "tags"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
           "title": "featured",
           "name": "featured",
           "type": "boolean"
@@ -84,6 +67,7 @@
         {
           "title": "pubDatetime",
           "name": "pubDatetime",
+          "default": "{{now}}",
           "type": "datetime"
         },
         {
