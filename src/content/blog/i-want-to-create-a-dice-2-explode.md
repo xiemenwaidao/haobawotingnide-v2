@@ -2,7 +2,7 @@
 title: サイコロを作りたい（2）吹き飛ばす
 description: サイコロを吹き飛ばす機能の実装をしました。自然な「吹き飛ばし」を心がけました。
 draft: false
-featured: true
+featured: false
 pubDatetime: 2023-05-08T15:21:50.990Z
 modDatetime: 2023-05-10T13:00:48.806Z
 tags:

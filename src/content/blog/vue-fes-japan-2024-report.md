@@ -6,7 +6,7 @@ tags:
   - diary
   - VueJs
   - NuxtJs
-featured: false
+featured: true
 pubDatetime: 2024-11-03T12:38:07.088Z
 modDatetime: null
 postSlug: ""
