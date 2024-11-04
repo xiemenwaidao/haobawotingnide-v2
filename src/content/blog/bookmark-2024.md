@@ -7,7 +7,7 @@ tags:
   - diary
   - PHP
   - Laravel
-featured: false
+featured: true
 pubDatetime: 2024-11-04T06:47:39.869Z
 modDatetime: null
 postSlug: ""

@@ -2,7 +2,7 @@
 title: サイコロを作りたい（1）スポットライト
 description: サイコロに追従するスポットライトを実装しました。暗闇でも目立つこと間違いなし！
 draft: false
-featured: true
+featured: false
 pubDatetime: 2023-05-01T15:44:00.000Z
 modDatetime: 2023-05-10T12:57:51.538Z
 tags:
