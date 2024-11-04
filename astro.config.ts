@@ -6,6 +6,7 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import mdx from "@astrojs/mdx";
+import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +18,15 @@ export default defineConfig({
     react(),
     sitemap(),
     mdx(),
+    partytown({
+      // Partytownの設定
+      config: {
+        // Google Analyticsのイベントを転送
+        forward: ["dataLayer.push"],
+        // デバッグモード（開発時のみ true に）
+        debug: false,
+      },
+    }),
   ],
   markdown: {
     remarkPlugins: [
