@@ -1,0 +1,25 @@
+---
+interface Props {
+  id: string;
+}
+
+const { id } = Astro.props;
+---
+
+<!-- Google タグマネージャーのスクリプト -->
+<script
+  type="text/partytown"
+  src={`https://www.googletagmanager.com/gtag/js?id=${id}`}></script>
+
+<!-- 初期化スクリプト -->
+<script type="text/partytown" define:vars={{ id }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    // eslint-disable-next-line prefer-rest-params
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+  gtag("config", id, {
+    page_path: window.location.pathname,
+  });
+</script>
