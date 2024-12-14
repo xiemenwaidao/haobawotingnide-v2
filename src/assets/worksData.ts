@@ -54,6 +54,13 @@ const worksData: Work[] = [
     href: "https://jikka-2022-1.vercel.app/",
     tags: ["React.js", "r3f", "Blender", "gsap"],
   },
+  {
+    title: "jizanguan",
+    description: "Xでいいねしたポストを日付ごとに表示するサイト",
+    date: "2024/12",
+    href: "https://likes.haobawotingnide.xyz/",
+    tags: ["Next.js"],
+  },
 ];
 
 export default worksData;

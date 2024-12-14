@@ -8,10 +8,10 @@ import worksData from "@assets/worksData";
 import WorkCard from "@components/WorkCard.astro";
 ---
 
-<Layout title={`Works | ${SITE.title}`}>
-  <Header activeNav="works" />
-  <Main pageTitle="Works" pageDesc={"₍₍ ᕕ( ˘ω˘ )ᕗ⁾⁾"}>
-    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<Layout title={`Labs | ${SITE.title}`}>
+  <Header activeNav="labs" />
+  <Main pageTitle="Labs" pageDesc={"₍₍ ᕕ( ˘ω˘ )ᕗ⁾⁾"}>
+    <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2">
       {worksData.reverse().map(work => <WorkCard work={work} />)}
     </ul>
   </Main>
