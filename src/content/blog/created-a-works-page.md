@@ -4,7 +4,7 @@ description: Worksページを作ったので、制作物の説明を書きま�
 draft: false
 featured: false
 pubDatetime: 2023-04-25T23:08:00.000Z
-modDatetime: 2023-05-06T07:14:57.026Z
+modDatetime: 2024-12-14T07:23:08.582Z
 tags:
   - Blender
   - JavaScript
@@ -14,6 +14,7 @@ tags:
   - VueJs
   - React-three-fiber
 postSlug: created-a-works-page
+lastmod: 2024-12-14T07:23:43.434Z
 ---
 
 <a href="" target="_blank"><img src="&#x2F;assets&#x2F;img&#x2F;posts&#x2F;works_captcha.png" alt="worksキャプチャ" title="worksキャプチャ" width="1024" height="554" ></a>
@@ -21,6 +22,8 @@ postSlug: created-a-works-page
 ## 目次
 
 ## はじめに
+
+(2024/12/12追記)Labsに名称変更しました💦
 
 よく見るイケイケなポートフォリオサイトの Works ページに憧れがあり、自身のサイトを作る際には絶対に作りたいと思っていました。制作途中で放置しているようなヘボヘボ Works しかアップしていませんが、これからどんどん増やしていけたらいいなぁと思っています。<br>
 一応覚えているうちに各サイトの説明などを残しておきます。
