@@ -7,10 +7,11 @@ tags:
   - diary
   - PHP
   - Laravel
-featured: true
+featured: false
 pubDatetime: 2024-11-04T06:47:39.869Z
 modDatetime: null
 postSlug: ""
+lastmod: 2024-12-09T14:17:02.109Z
 ---
 
 <img src="/assets/img/posts/bookmark-2024.webp" title="bookmark-2024" alt="" width="1792" height="1024" >
