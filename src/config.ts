@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Menxie Lijiao",
   profile: "",
   desc: "Webエンジニアのブログです。",
-  title: "HAOBAWOTINGNIDE",
+  title: "好吧我聽你的",
   ogImage: "ogImage.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
